@@ -2,9 +2,9 @@
 require "pry"
 
 class Anagram
-  attr_accessor :name 
+  attr_accessor :word 
   
-  def initialize(language)
+  def initialize(word)
     @word = word
   end
   
@@ -16,11 +16,3 @@ end
 
 binding.pry
 
-"test"
-
-def Dog 
-  attr_accessor :name 
-end
-
-new_dog = Dog.new("Fido")
-new_dog.name => "Fido"
